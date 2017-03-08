@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_userInfo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_userInfo" fill="#333F4D">
+            <rect id="Rectangle" x="14" y="4" width="10" height="2"></rect>
+            <rect id="Rectangle" x="14" y="11" width="10" height="2"></rect>
+            <rect id="Rectangle" x="17.0476545" y="18" width="6.95234549" height="2"></rect>
+            <path d="M8.14326962,23.2556827 C8.14326962,23.2556827 16.1432696,23.2556827 16.1432696,19.8271112 C16.1432696,15.0932419 12.5615476,11.2556827 8.14326962,11.2556827 C3.72499162,11.2556827 0.14326962,15.0932419 0.14326962,19.8271112 C0.14326962,23.2556827 8.14326962,23.2556827 8.14326962,23.2556827 Z" id="Oval-7" stroke="#FFFFFF"></path>
+            <ellipse id="Oval-6" stroke="#FFFFFF" cx="8" cy="8" rx="6" ry="6"></ellipse>
+        </g>
+    </g>
+</svg>
