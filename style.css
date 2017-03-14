@@ -416,6 +416,14 @@ ul.page_tab li {
     top: 6px;
     right: 3px;
 }
+.page_tab li.active a .lock {
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 2px;
+    top: 0px;
+    right: 0px;
+    position: relative;
+}
 
 .page_tab li.active a:hover {
     color: #333F4D;
@@ -1586,4 +1594,62 @@ a.cc_popover:hover {
 .space_div {
   padding: 10px;
   display: block;
+}
+
+.launch_text {
+    border: 1px dashed #ccc;
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text_launch {
+  font-size:1.6em;
+  font-weight:300;
+  color: #ccc;
+  padding-left: 40px; 
+  padding-top: 10px;
+	letter-spacing: 0.1em;
+}
+
+.img_arrow {
+  width: 40px;
+  display:inline;
+  padding: 10px 5px;
+  position:absolute;
+
+}
+.img_arrow_right {
+  width: 40px;
+  display:inline;
+  padding: 30px 5px;
+  position:absolute;
+	right:0px;
+}
+
+
+
+.textR {
+	position:relative; 
+	right:40px;
+	float: right;
+	padding:20px 0px;
+}
+
+.text_launch_right {
+  font-size:1.6em;
+  font-weight:300;
+  color: #ccc;
+	letter-spacing: 0.1em;
+
+}
+
+.textL {
+	position:relative; 
+	left:0px;
+	float: left;
+	padding:10px 0px;
 }
