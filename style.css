@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-body {
+html, body {
     padding: 0px;
     margin: 0px;
     font-size: 16px;
@@ -396,15 +396,15 @@ ul.page_tab {
 }
 
 ul.page_tab li {
-    height: 46px;
+    height: 38px;
 }
 
 .page_tab li.active a {
     color: #333F4D;
-    background: rgba(0, 0, 0, 0.08);
+    background: #F4F4F4;
     font-weight: 500;
     font-size: 0.8em;
-    line-height: 26px;
+    line-height: 18px;
     box-shadow: none;
     border: 1px solid #f4f4f4;
 }
@@ -431,7 +431,12 @@ ul.page_tab li {
     font-weight: 500;
     font-size: 0.8em;
 }
-
+.page_tab li.active a:focus {
+    color: #333F4D;
+    background: #F4F4F4;
+    font-weight: 500;
+    font-size: 0.8em;
+}
 .ss-wrapper {
     overflow: hidden;
     width: 100%;
@@ -824,7 +829,7 @@ ul.page_tab li {
 /* TOOLBAR START */
 
 .toolbar_BG {
-    height: 50px;
+    height: 48px;
     width: auto;
     margin: 5px;
     padding: 0px 2px;
@@ -850,12 +855,24 @@ ul.page_tab li {
 .toolbar_bt:hover {
     border-bottom: 2px solid #ff6c00;
     transition: all 0.5s ease;
+  text-decoration: none;
+  color:#EA0600;
+  
 }
 
-.toolbar_bt i {
+.toolbar_bt span {
     color: #F05623;
+    font-weight: 300;
+    font-size:0.8rem;
 }
-
+.toolbar_bt:hover span {
+    transition: all 0.5s ease;
+    color: #EA0600;
+}
+.toolbar_bt i{
+  color:#f05623;
+  font-size:1rem;
+}
 .toolbar_bt:hover i {
     transition: all 0.5s ease;
     color: #EA0600;
@@ -901,7 +918,7 @@ ul.page_tab li {
 .toolbar_view {
     display: none;
     position: absolute;
-    top: 50px;
+    top: 48px;
     left: 24vw;
     width: 80px;
     height: 130px;
@@ -926,8 +943,8 @@ ul.page_tab li {
 .textcolor {
     display: none;
     position: absolute;
-    top: 50px;
-    left: 28vw;
+    top: 48px;
+    left: 32vw;
     width: 90px;
     padding: 15px 5px 0px 5px;
     height: 130px;
@@ -942,8 +959,8 @@ ul.page_tab li {
 .textwidth {
     display: none;
     position: absolute;
-    top: 50px;
-    left: 32vw;
+    top: 48px;
+    left: 36vw;
     width: 70px;
     padding: 10px 0px 0px 0px;
     height: 70px;
@@ -953,6 +970,9 @@ ul.page_tab li {
     z-index: 1000;
     border-radius: 0px 0px 5px 5px;
     overflow-y: auto;
+  font-size:0.9rem;
+  color:#333;
+  font-weight:400;
 }
 
 .event01 {
@@ -1595,12 +1615,16 @@ a.cc_popover:hover {
   padding: 10px;
   display: block;
 }
+.space_div_form {
+  padding: 5px;
+  display: block;
+}
 
 .launch_text {
 
     display: inline-block;
     width: 100%;
-    margin: 0px 0px 10px 0px;
+    margin: 0px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1610,24 +1634,24 @@ a.cc_popover:hover {
   font-size:1.6em;
   font-weight:300;
   color: #ccc;
-  padding-left: 40px; 
-  padding-top: 10px;
+  padding-left: 45px; 
+  padding-top: 0px;
 	letter-spacing: 0.1em;
 }
 
 .img_arrow {
   width: 40px;
   display:inline;
-  padding: 10px 5px;
+  padding: 0px;
   position:absolute;
 
 }
 .img_arrow_right {
   width: 40px;
   display:inline;
-  padding: 30px 5px;
+  padding: 0px 2px;
   position:absolute;
-	right:0px;
+  right:0px;
 }
 
 
@@ -1636,14 +1660,14 @@ a.cc_popover:hover {
 	position:relative; 
 	right:40px;
 	float: right;
-	padding:20px 0px;
+	padding:0px;
 }
 
 .text_launch_right {
   font-size:1.6em;
   font-weight:300;
   color: #ccc;
-	letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
 
 }
 
@@ -1652,4 +1676,124 @@ a.cc_popover:hover {
 	left:0px;
 	float: left;
 	padding:10px 0px;
+}
+
+.form_welcome {
+  height: 400px;
+  background-image: url(img/img_form_welcome01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form_welcome_title {
+  font-size:3rem;
+  color:#404041;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  line-height: 1.5em;
+  margin:10px 0px;
+}
+
+.form_welcome_text {
+  font-size:1rem;
+  letter-spacing: 0.02rem;
+  text-align: center; 
+  word-break: keep-all;
+}
+
+.form_welcome_button {
+  height:70px;
+  border-top:1px solid #ccc;
+  margin-top:40px;
+  position: relative;
+  text-align: center;
+}
+
+.form_bt01 {
+  padding:8px 20px;
+  border:1.5px solid #ff6c00;
+  position: relative;
+  display: inline-block;
+  margin-top:20px;
+  color:#FF6C00;
+  font-size:0.9rem;
+  font-weight:400;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 10px 0px;
+}
+.form_bt01:hover {
+  text-decoration: none;
+  color:#ff6c00;
+  background: #F5F3F9;
+  transition: all 0.2s ease;
+}
+.form_bt01:hover .iconStart{
+  -webkit-animation: spin 0.3s;
+  animation: spin 0.3s;
+}
+
+.formSelect {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    width: 54px;
+    padding: 10px 0px 0px 0px;
+    height: 70px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    overflow-y: auto;
+    font-size:0.9rem;
+  font-weight:300;
+
+}
+
+.formRequire {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 4vw;
+    width: 70px;
+    padding: 10px 0px 0px 0px;
+    height: 70px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    overflow-y: auto;
+    font-size:0.9rem;
+  font-weight:300;
+
+}
+
+.form_quiz {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #353535;
+}
+
+.form_frame {
+  width:96%;
+  margin:0px auto;
+}
+
+.form_item {
+  font-size: 1rem;
+  color: #606060;
+  font-weight:300;
+  padding:10px 0px 24px 24px;
+  
+}
+
+input[type=radio].tmot_checkbox {
+  margin:8px 8px 8px 4px;
+  border:1px solid black;
+  
 }

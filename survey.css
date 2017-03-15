@@ -1,0 +1,211 @@
+.bt_selectfile01 {
+  width: 100%;
+  color:#fff;
+  background: #54C4B5;
+  display: block;
+  padding:10px;
+  text-align: center;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+  cursor:pointer;
+  margin:1px auto;
+  border: none;
+  box-shadow: none;
+  filter:none;
+}
+.bt_selectfile01:hover, .bt_selectfile01:focus {
+  color:#fff;
+  background: #00B097;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+
+.space_div {
+  padding: 10px;
+  display: block;
+}
+.space_div_form {
+  padding: 5px;
+  display: block;
+}
+
+.launch_text {
+
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text_launch {
+  font-size:1.6em;
+  font-weight:300;
+  color: #ccc;
+  padding-left: 45px; 
+  padding-top: 0px;
+	letter-spacing: 0.1em;
+}
+
+.img_arrow {
+  width: 40px;
+  display:inline;
+  padding: 0px;
+  position:absolute;
+
+}
+.img_arrow_right {
+  width: 40px;
+  display:inline;
+  padding: 0px 2px;
+  position:absolute;
+  right:0px;
+}
+
+
+
+.textR {
+	position:relative; 
+	right:40px;
+	float: right;
+	padding:0px;
+}
+
+.text_launch_right {
+  font-size:1.6em;
+  font-weight:300;
+  color: #ccc;
+  letter-spacing: 0.1em;
+
+}
+
+.textL {
+	position:relative; 
+	left:0px;
+	float: left;
+	padding:10px 0px;
+}
+
+.form_welcome {
+  height: 400px;
+  background-image: url(img/img_form_welcome01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form_welcome_title {
+  font-size:3rem;
+  color:#404041;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  line-height: 1.5em;
+  margin:10px 0px;
+}
+
+.form_welcome_text {
+  font-size:1rem;
+  letter-spacing: 0.02rem;
+  text-align: center; 
+  word-break: keep-all;
+}
+
+.form_welcome_button {
+  height:70px;
+  border-top:1px solid #ccc;
+  margin-top:40px;
+  position: relative;
+  text-align: center;
+}
+
+.form_bt01 {
+  padding:8px 20px;
+  border:1.5px solid #ff6c00;
+  position: relative;
+  display: inline-block;
+  margin-top:20px;
+  color:#FF6C00;
+  font-size:0.9rem;
+  font-weight:400;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 10px 0px;
+}
+.form_bt01:hover {
+  text-decoration: none;
+  color:#ff6c00;
+  background: #F5F3F9;
+  transition: all 0.2s ease;
+}
+.form_bt01:hover .iconStart{
+  -webkit-animation: spin 0.3s;
+  animation: spin 0.3s;
+}
+
+.formSelect {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    width: 54px;
+    padding: 10px 0px 0px 0px;
+    height: 70px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    overflow-y: auto;
+    font-size:0.9rem;
+  font-weight:300;
+
+}
+
+.formRequire {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 4vw;
+    width: 70px;
+    padding: 10px 0px 0px 0px;
+    height: 70px;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    overflow-y: auto;
+    font-size:0.9rem;
+  font-weight:300;
+
+}
+
+.form_quiz {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #353535;
+}
+
+.form_frame {
+  width:96%;
+  margin:0px auto;
+}
+
+.form_item {
+  font-size: 1rem;
+  color: #606060;
+  font-weight:300;
+  padding:10px 0px 24px 24px;
+  
+}
+
+input[type=radio].tmot_checkbox {
+  margin:8px 8px 8px 4px;
+  border:1px solid black;
+  
+}
