@@ -123,7 +123,7 @@
   font-size: 1rem;
   color: #606060;
   font-weight:300;
-  padding:10px 0px 24px 24px;
+  padding:10px 0px 10px 20px;
   
 }
 
@@ -131,4 +131,8 @@ input[type=radio].tmot_checkbox {
   margin:8px 8px 8px 4px;
   border:1px solid black;
   
+}
+.item_text01 {
+  display: inline;
+  padding:4px 2px;
 }
