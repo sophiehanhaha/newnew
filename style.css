@@ -53,7 +53,7 @@ html, body {
     margin: 0;
     padding: 0;
     top: 0px;
-    width: 30px;
+    width: auto;
     height: 50px;
     font-size: 0;
     text-indent: -9999px;
@@ -749,7 +749,8 @@ ul.page_tab li {
     display: inline;
     padding: 10px 6px 12px 6px;
     background: #38434F;
-    margin: 10px 5px 0px 5px border: none;
+    margin: 10px 5px 0px 5px;
+    border: none;
     transition: all 0.1s ease;
 }
 
@@ -845,7 +846,7 @@ ul.page_tab li {
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    width: 4vw;
+    width: 50px;
     padding: 12px 0px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
     border-right: 1px solid rgba(240, 240, 240, 0.6);
@@ -1581,10 +1582,7 @@ a.cc_popover:hover {
   text-align: center;
 }
 
-.text_thumbnail {
-  display: table-cell;
-  vertical-align: middle;
-}
+
 
 .bt_selectfile01 {
   width: 100%;
