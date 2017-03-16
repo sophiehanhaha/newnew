@@ -4,14 +4,25 @@
   position:absolute;
   right:0px;
 }
-
-.textL {
-	position:relative; 
-	left:0px;
-	float: left;
-	padding:10px 0px;
+.text_launch_right {
+  font-size:1.6em;
+  font-weight:300;
+  color: #ccc;
+  letter-spacing: 0.1em;
 }
-
+.textR {
+	position:relative; 
+	right:40px;
+	float: right;
+	padding:0px;
+}
+.img_arrow_right {
+  width: 40px;
+  display:inline;
+  padding: 0px 2px;
+  position:absolute;
+  right:0px;
+}
 .form_welcome {
   height: 400px;
   background-image: url(img/img_form_welcome01.png);

@@ -1651,5 +1651,8 @@ a.cc_popover:hover {
 	float: left;
 	padding:10px 0px;
 }
-
+.text_thumbnail {
+  display: table-cell;
+  vertical-align: middle;
+}
 
