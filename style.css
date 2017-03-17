@@ -1619,7 +1619,6 @@ a.cc_popover:hover {
 }
 
 .launch_text {
-
     display: inline-block;
     width: 100%;
     margin: 0px;
@@ -1655,4 +1654,3 @@ a.cc_popover:hover {
   display: table-cell;
   vertical-align: middle;
 }
-
