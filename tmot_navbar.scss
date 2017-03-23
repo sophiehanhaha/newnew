@@ -23,8 +23,8 @@
   }
   
   .tmotNavbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #000;
+    color: #fff;
   }
   
   .tmotNavbar .icon {
@@ -109,12 +109,16 @@
   border-radius: 4px;
   color:#fff;
   vertical-align:top;
+  margin:0px 2px;
 }
 .form_tag.single{
-  background: #ff6c00;
+  background: #FF9600;
 }
 .form_tag.multi{
   background: #91C4F2;
+}
+.form_tag.required{
+  background: #CF3200;
 }
 .form_button{
   vertical-align: center;
@@ -182,28 +186,17 @@
   background-position: center;
   transition: background-image 0.3s ease;
 }
-.button_img{
-  background: url(img/bottle_w.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 120px;
-  width: 140px;
-  display:inline-block;
-  height:140px;
-  margin:5px 0px 0px;
-  border:5px solid #ff6c00;
-  border-radius:20px;
-  box-shadow: rgba(0,0,0,0.1) 0px 3px 5px;
-  padding:10px;
-  position:relative;
-  transition:all 0.2s ease;
 
-}
 .form_item_g02{
   margin-left:24px;
   font-size:1.6rem;
   vertical-align: top;
 
+}
+.bt_img{
+  display:inline-block;
+  width:150px;
+  vertical-align: top;
 }
 .img_text{
   position:relative;
@@ -214,46 +207,82 @@
   font-weight:300;
   text-align: center;
   word-break: break-all;
-
 }
 .check{
   display:none;
   position: absolute;
   z-index: 1;
-    background:url(img/checkbox/focus.svg);
+  background:url(img/checkbox/focus.svg);
   background-repeat: no-repeat;
   background-position:center;
   background-size:100;
-width: 100%;
-height:100%;
-
+  width: 100%;
+  height:100%;
 }
-.button_img:hover, .button_img.active {
-  border:none;
-  border-radius:20px;
-    background: url(img/bottle_w.png);
+.button_img{
+  background: url(img/test.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 150px;
+  background-size: auto 100%;
+  width: 140px;
+  display:inline-block;
+  height:140px;
+  margin:5px 0px 0px;
+  border-radius:20px;
+  box-shadow: rgba(0,0,0,0.1) 0px 3px 5px;
+  padding:10px;
+  position:relative;
+  transition:all 0.2s ease;
 }
-.button_img:hover .check, .button_img.active .check{
+
+.button_img:hover, .button_img.active {
+  border:none;
+  background: url(img/test.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+}
+.button_img:hover .check{
   display:block;
   position: absolute;
   z-index: 0;
-    background:url(img/checkbox/focus.svg);
+  background:url(img/checkbox/hover2.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size:60px auto;
-width: 100%;
-height:100%;
+  width: 100%;
+  height:100%;
   transition:all 0.2s ease;
 }
-.bt_img{
-  display:inline-block;
-  width:150px;
-  vertical-align: top;
+.button_img .mask{
+  top:0px;
+  left: 0px;
+  right:0px;
+  bottom:0px;
+  padding: 0px;
+  margin: 0px;
+  border:5px solid #ff6c00;
+  border-radius:20px;
+  position: absolute;
+  overflow: hidden;
+  transition:all 0.2s ease;
 }
-.button_img:hover .mask, .button_img.active .mask{
+
+.button_img:hover .mask{
+  top:0px;
+  left: 0px;
+  right:0px;
+  bottom:0px;
+  background: rgba(0,0,0,0.5);
+  padding: 0px;
+  margin: 0px;
+  border:5px solid #ff6c00;
+  border-radius:20px;
+  position: absolute;
+  overflow: hidden;
+  transition:all 0.2s ease;
+}
+.button_img.active .mask{
   top:0px;
   left: 0px;
   right:0px;
@@ -262,11 +291,50 @@ height:100%;
   transition:all 0.2s ease;
   padding: 0px;
   margin: 0px;
-  border:3px solid #54C4B4;
+  border:5px solid #54C4B4;
   border-radius:20px;
   position: absolute;
   overflow: hidden;
   z-index: 0;
+}
+.button_img.active .check{
+  display:block;
+  position: absolute;
+  z-index: 0;
+  background:url(img/checkbox/focus.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:60px auto;
+  width: 100%;
+  height:100%;
+  transition:all 0.2s ease;
+}
+.button_img.active:hover .check{
+  display:block;
+  position: absolute;
+  z-index: 0;
+ background:none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:60px auto;
+  width: 100%;
+  height:100%;
+  transition:all 0.2s ease;
+}
+.button_img.active:hover{
+  background: url(img/test.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 140px;
+  display:inline-block;
+  height:140px;
+  margin:5px 0px 0px;
+  border-radius:20px;
+  box-shadow: rgba(0,0,0,0.1) 0px 3px 5px;
+  padding:10px;
+  position:relative;
+  transition:all 0.2s ease;
 }
 .tab_bottom{
   position: fixed;
