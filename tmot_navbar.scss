@@ -355,10 +355,17 @@
   font-weight:300;
   display: inline-block;
 }
-.tab_bottom button.active, .tab_bottom button:hover, .tab_bottom button:focus{
+.tab_bottom button.active, .tab_bottom button:focus{
   padding:10px 10px;
   margin:0px;
   background: #74C4F9;
+  color:#fff;
+  display: inline-block;
+}
+.tab_bottom button.active:hover, .tab_bottom button:hover{
+  padding:10px 10px;
+  margin:0px;
+  background: #1090E5;
   color:#fff;
   display: inline-block;
 }
@@ -368,7 +375,7 @@
   background: #ddd;
   color:#bdbdbd;
   display: inline-block;
-  border:1px solid black
+  border:1px solid #cdcdcd;
 }
 .space{
   height: 120px
