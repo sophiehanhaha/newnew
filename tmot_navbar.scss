@@ -347,21 +347,17 @@
   text-align: center;
 }
 .tab_bottom button{
-
   padding:10px 10px;
   margin:0px;
   border:none;
   background: #A9E1F3;
   color:#0098FC;
   font-weight:300;
-
   display: inline-block;
-
 }
 .tab_bottom button.active, .tab_bottom button:hover, .tab_bottom button:focus{
   padding:10px 10px;
   margin:0px;
-
   background: #74C4F9;
   color:#fff;
   display: inline-block;
@@ -371,10 +367,8 @@
   margin:0px;
   background: #ddd;
   color:#bdbdbd;
-
   display: inline-block;
   border:1px solid black
-  box-shadow: black 2px 2px 5px;
 }
 .space{
   height: 120px
