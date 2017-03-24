@@ -351,8 +351,8 @@
   padding:10px 10px;
   margin:0px;
   border:none;
-  background: #A5C4CE;
-  color:#fff;
+  background: #A9E1F3;
+  color:#0098FC;
   font-weight:300;
 
   display: inline-block;
@@ -362,9 +362,19 @@
   padding:10px 10px;
   margin:0px;
 
-  background: #70AFC4;
+  background: #74C4F9;
   color:#fff;
   display: inline-block;
+}
+.tab_bottom button.disabled{
+  padding:10px 10px;
+  margin:0px;
+  background: #ddd;
+  color:#bdbdbd;
+
+  display: inline-block;
+  border:1px solid black
+  box-shadow: black 2px 2px 5px;
 }
 .space{
   height: 120px
